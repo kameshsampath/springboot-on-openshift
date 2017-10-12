@@ -1,0 +1,3 @@
+If you are looking for Spring Boot on OpenShift resources, how-tos, demos etc., 
+then you are on the right page. In this page I have index all my work related Spring Boot on OpenShift, 
+like blogs, videos, demos, tools etc., 

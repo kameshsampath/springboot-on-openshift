@@ -1,0 +1,43 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.redhat.developers</groupId>
+  <artifactId>spring-boot-on-openshift-site</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Spring Boot on OpenShift Index</name>
+  <description>The website of all index of all my Spring Boot on OpenShift resources</description>
+
+  <licenses>
+    <license>
+        <name>Apache License 2</name>
+        <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <properties>
+    <asciidoctor-maven-plugin.version>1.5.5</asciidoctor-maven-plugin.version>
+  </properties>
+
+  <build>
+  <defaultGoal>clean generate-resources asciidoctor:process-asciidoc</defaultGoal>
+   <plugins>
+     <plugin>
+        <groupId>org.asciidoctor</groupId>
+        <artifactId>asciidoctor-maven-plugin</artifactId>
+        <version>${asciidoctor-maven-plugin.version}</version>
+        <configuration>
+            <backend>html5</backend>
+            <sourceHighlighter>coderay</sourceHighlighter>
+            <attributes>
+               <toc>left</toc>
+            </attributes>
+        </configuration>
+     </plugin>
+   </plugins>
+  </build>
+
+</project>

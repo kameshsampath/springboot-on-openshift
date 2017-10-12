@@ -1,0 +1,24 @@
+= Spring Boot on OpenShift
+Kamesh Sampath
+:revdate: {localdate}
+:toc: macro
+:toclevels: 3
+:toc-title: Spring Boot on OpenShift
+:doctype: book
+:icons: font
+
+ifndef::ebook-format[:leveloffset: 1]
+
+
+ifdef::basebackend-html[toc::[]]
+
+
+include::inc/_introduction.adoc[]
+
+include::inc/_tools.adoc[toc::[]]
+
+include::inc/_blogs.adoc[toc::[]]
+
+include::inc/_demos.adoc[toc::[]]
+
+include::inc/_videos.adoc[toc::[]]
