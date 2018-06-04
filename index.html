@@ -519,17 +519,17 @@ table.CodeRay td.code>pre{padding:0}
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Spring Boot on OpenShift</div>
-<ul class="sectlevel2">
-<li><a href="#_who_am_i">Who Am I ?</a></li>
+<ul class="sectlevel1">
+<li><a href="#_blogs">Blogs</a></li>
+<li><a href="#_demos">Demos</a></li>
+<li><a href="#_videos">Videos</a></li>
 <li><a href="#_tools">Tools</a>
 <ul class="sectlevel2">
 <li><a href="#_minishift">Minishift</a></li>
 <li><a href="#_fabric8_maven_plugin">fabric8 maven plugin</a></li>
+<li><a href="#_who_am_i">Who Am I ?</a></li>
 </ul>
 </li>
-<li><a href="#_blogs">Blogs</a></li>
-<li><a href="#_demos">Demos</a></li>
-<li><a href="#_videos">Videos</a></li>
 </ul>
 </div>
 </div>
@@ -539,34 +539,69 @@ table.CodeRay td.code>pre{padding:0}
 <!-- toc disabled -->
 </div>
 </div>
-<div class="sect2">
-<h3 id="_who_am_i">Who Am I ?</h3>
+<div class="sect1">
+<h2 id="_blogs">Blogs</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>I am developer :) , yes I am still a developer and will be developer for ever!</p>
+<p><a href="http://bit.ly/spring-boot-on-k8s">Getting started with Spring Boot on OpenShift</a></p>
 </div>
 <div class="paragraph">
-<p>I am currently Red Hat’s Director of Developer Experience, most part of my career was with services industry helping various customers build Java based solutions.</p>
+<p><a href="http://bit.ly/springboot-oauth2-keycloak">Spring Boot and OAuth2 with Keycloak - RHD Blog</a></p>
 </div>
 <div class="paragraph">
-<p>I am the creator of vertx-maven-plugin(<a href="https://vmp.fabric8.io" class="bare">https://vmp.fabric8.io</a>) and he has been an active contributor to OpenSource projects like OpenWhisk, Eclipse Che, fabric8 etc., Apart from being an OpenSource developer and contributor I love sharing my experience on building and deploying Cloud Native Java Applications on Kubernetes/OpenShift.</p>
+<p><a href="http://bit.ly/configsprintboot-k8s-part-1">Configuring Spring Boot Application on Kubernetes - RHD Blog</a></p>
 </div>
 <div class="paragraph">
-<p>As Red Hat’s Director of Developer Experience I do active evangelism on Spring Boot, Kubernetes/OpenShift, Serverless(OpenWhisk), Istio and Serverless technologies like OpenWhisk by sharing his knowledge on how to build better Cloud Native Applications using these technologies.</p>
+<p><a href="http://bit.ly/spring-boot-config-k8s-part-2">Configuring Spring Boot on Kubernetes with ConfigMap - RHD Blog</a></p>
 </div>
 <div class="paragraph">
-<p>If you are seeing this page then I am sure you are looking for Spring Boot on OpenShift resources, how-tos, demos etc.,</p>
+<p><a href="http://bit.ly/spring-boot-config-k8s-part-3">Configuring Spring Boot on Kubernetes with Secrets - RHD Blog</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_demos">Demos</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Spring Boot on OpenShift 101 <a href="https://github.com/redhat-developer-demos/springboot-on-openshift">Quickstart SprigBoot on OpenShift</a></p>
 </div>
 <div class="paragraph">
-<p>I will not disappoint you in this page I have index all my work related Spring Boot on Kubernetes/OpenShift like blogs, videos, demos, tools etc., I will be updating this page as I add new content.</p>
+<p>Step by Step approach to make an existing CloudFoundry ready Spring Boot application and its related workloads
+to OpenShift <a href="http://bit.ly/green-cloud-demo">Green Cloud Demo</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Good Luck!</strong> and I hope this will be helpful.</p>
+<p>How to do a stateful Canary deployment using Spring Boot and Infnispan <a href="http://bit.ly/green-cloud-demo-sources">Popular Movie Store</a></p>
 </div>
 <div class="paragraph">
-<p>If you have any comments, queries or feedback please feel freesh share them via:</p>
+<p>How to do integration Test of Spring Boot Application on OpenShift <a href="https://github.com/redhat-developer-demos/spring-boot-arq-demo">Spring Boot Integration Test on OpenShift</a></p>
 </div>
 <div class="paragraph">
-<p><span class="icon"><i class="fa fa-twitter"></i></span> <a href="https://twitter.com/kamesh_sampath">@kamesh_sampath</a>| <span class="icon"><i class="fa fa-github"></i></span> <a href="https://github.com/kameshsampath">kameshsampath</a> | <span class="icon"><i class="fa fa-envelope"></i></span> <a href="mailto:kamesh.sampath@hotmail.com">kamesh.sampath@hotmail.com</a> | <span class="icon"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/kameshsampath/">kameshsampath</a></p>
+<p>Using Kubernetes ConfigMaps with Spring Boot <a href="https://github.com/redhat-developer-demos/spring-boot-configmaps-demo">Configure Kubernetes ConfigMaps with Spring Boot</a></p>
+</div>
+<div class="paragraph">
+<p>Using Kubernetes Secrets with Spring Boot <a href="https://github.com/redhat-developer-demos/spring-boot-secrets-demo">Configure Kubernetes Secrets with Spring Boot</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_videos">Videos</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Quick Start Spring Boot on OpenShift</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/nskZMK40NY4?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="paragraph">
+<p>Debug Spring Boot Application on OpenShift</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/4oOfSdEIyxU?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -699,69 +734,34 @@ In the above code 3.5.30 is used as version, please update to version that suits
 and undeploys once CTRL + C is used to terminate current process in foreground.</p>
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_blogs">Blogs</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_who_am_i">Who Am I ?</h3>
 <div class="paragraph">
-<p><a href="http://bit.ly/spring-boot-on-k8s">Getting started with Spring Boot on OpenShift</a></p>
+<p>I am developer :) , yes I am still a developer and will be developer for ever!</p>
 </div>
 <div class="paragraph">
-<p><a href="http://bit.ly/springboot-oauth2-keycloak">Spring Boot and OAuth2 with Keycloak - RHD Blog</a></p>
+<p>I am currently Red Hat’s Director of Developer Experience, most part of my career was with services industry helping various customers build Java based solutions.</p>
 </div>
 <div class="paragraph">
-<p><a href="http://bit.ly/configsprintboot-k8s-part-1">Configuring Spring Boot Application on Kubernetes - RHD Blog</a></p>
+<p>I am the creator of vertx-maven-plugin(<a href="https://vmp.fabric8.io" class="bare">https://vmp.fabric8.io</a>) and he has been an active contributor to OpenSource projects like OpenWhisk, Eclipse Che, fabric8 etc., Apart from being an OpenSource developer and contributor I love sharing my experience on building and deploying Cloud Native Java Applications on Kubernetes/OpenShift.</p>
 </div>
 <div class="paragraph">
-<p><a href="http://bit.ly/spring-boot-config-k8s-part-2">Configuring Spring Boot on Kubernetes with ConfigMap - RHD Blog</a></p>
+<p>As Red Hat’s Director of Developer Experience I do active evangelism on Spring Boot, Kubernetes/OpenShift, Serverless(OpenWhisk), Istio and Serverless technologies like OpenWhisk by sharing his knowledge on how to build better Cloud Native Applications using these technologies.</p>
 </div>
 <div class="paragraph">
-<p><a href="http://bit.ly/spring-boot-config-k8s-part-3">Configuring Spring Boot on Kubernetes with Secrets - RHD Blog</a></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_demos">Demos</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Spring Boot on OpenShift 101 <a href="https://github.com/redhat-developer-demos/springboot-on-openshift">Quickstart SprigBoot on OpenShift</a></p>
+<p>If you are seeing this page then I am sure you are looking for Spring Boot on OpenShift resources, how-tos, demos etc.,</p>
 </div>
 <div class="paragraph">
-<p>Step by Step approach to make an existing CloudFoundry ready Spring Boot application and its related workloads
-to OpenShift <a href="http://bit.ly/green-cloud-demo">Green Cloud Demo</a></p>
+<p>I will not disappoint you in this page I have index all my work related Spring Boot on Kubernetes/OpenShift like blogs, videos, demos, tools etc., I will be updating this page as I add new content.</p>
 </div>
 <div class="paragraph">
-<p>How to do a stateful Canary deployment using Spring Boot and Infnispan <a href="http://bit.ly/green-cloud-demo-sources">Popular Movie Store</a></p>
+<p><strong>Good Luck!</strong> and I hope this will be helpful.</p>
 </div>
 <div class="paragraph">
-<p>How to do integration Test of Spring Boot Application on OpenShift <a href="https://github.com/redhat-developer-demos/spring-boot-arq-demo">Spring Boot Integration Test on OpenShift</a></p>
+<p>If you have any comments, queries or feedback please feel freesh share them via:</p>
 </div>
 <div class="paragraph">
-<p>Using Kubernetes ConfigMaps with Spring Boot <a href="https://github.com/redhat-developer-demos/spring-boot-configmaps-demo">Configure Kubernetes ConfigMaps with Spring Boot</a></p>
-</div>
-<div class="paragraph">
-<p>Using Kubernetes Secrets with Spring Boot <a href="https://github.com/redhat-developer-demos/spring-boot-secrets-demo">Configure Kubernetes Secrets with Spring Boot</a></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_videos">Videos</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Quick Start Spring Boot on OpenShift</p>
-</div>
-<div class="videoblock">
-<div class="content">
-<iframe src="https://www.youtube.com/embed/nskZMK40NY4?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
-</div>
-<div class="paragraph">
-<p>Debug Spring Boot Application on OpenShift</p>
-</div>
-<div class="videoblock">
-<div class="content">
-<iframe src="https://www.youtube.com/embed/4oOfSdEIyxU?rel=0" frameborder="0" allowfullscreen></iframe>
+<p><span class="icon"><i class="fa fa-twitter"></i></span> <a href="https://twitter.com/kamesh_sampath">@kamesh_sampath</a>| <span class="icon"><i class="fa fa-github"></i></span> <a href="https://github.com/kameshsampath">kameshsampath</a> | <span class="icon"><i class="fa fa-envelope"></i></span> <a href="mailto:kamesh.sampath@hotmail.com">kamesh.sampath@hotmail.com</a> | <span class="icon"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/kameshsampath/">kameshsampath</a></p>
 </div>
 </div>
 </div>
@@ -769,7 +769,7 @@ to OpenShift <a href="http://bit.ly/green-cloud-demo">Green Cloud Demo</a></p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-06-04 21:11:38 IST
+Last updated 2018-06-04 21:41:44 IST
 </div>
 </div>
 </body>
