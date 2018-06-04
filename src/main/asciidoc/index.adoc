@@ -1,6 +1,5 @@
 = Spring Boot on OpenShift
 Kamesh Sampath
-:revdate: {localdate}
 :toc: macro
 :toclevels: 3
 :toc-title: Spring Boot on OpenShift
