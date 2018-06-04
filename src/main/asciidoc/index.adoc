@@ -12,12 +12,12 @@ ifndef::ebook-format[:leveloffset: 1]
 ifdef::basebackend-html[toc::[]]
 
 
-include::inc/_introduction.adoc[]
-
-include::inc/_tools.adoc[toc::[]]
-
 include::inc/_blogs.adoc[toc::[]]
 
 include::inc/_demos.adoc[toc::[]]
 
 include::inc/_videos.adoc[toc::[]]
+
+include::inc/_tools.adoc[toc::[]]
+
+include::inc/_introduction.adoc[]
